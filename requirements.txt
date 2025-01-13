@@ -29,6 +29,9 @@ jupyterlab-night
 # JupyterLab: Miami nights theme (optional)
 jupyterlab_miami_nights
 
+# CUSTOM by me
+jupyterlab-variableInspector
+
 # Python: ipywidget library for Jupyter notebooks (optional)
 ipywidgets>=8.1.3,<9
 # Python: ipyevents library for Jupyter notebooks (optional)
