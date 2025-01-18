@@ -1,18 +1,14 @@
 import json
 
 characters = {}
-locations = {}
+regions = {}
 technology = {}
 
 with open("character.json","r") as file:
     characters = json.load(file)
 
 with open("locations.json","r") as file:
-    locations = json.load(file)
+    regions = json.load(file)
 
 with open("technology.json","r") as file:
     technology = json.load(file)
-
-
-#"city": "highly dense population"
-#"me": "A person who enjoys things"
