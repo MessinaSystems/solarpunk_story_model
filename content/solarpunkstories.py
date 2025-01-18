@@ -4,7 +4,7 @@ characters = {}
 regions = {}
 technology = {}
 
-with open("charactere.json","r") as file:
+with open("characters.json","r") as file:
     characters = json.load(file)
 
 with open("regions.json","r") as file:
